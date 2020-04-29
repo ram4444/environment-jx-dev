@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: ram4444
+  repo: test3
+  url: https://github.com/ram4444/test3.git
+  version: ""
+  versionURL: ""
