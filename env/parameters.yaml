@@ -1,0 +1,15 @@
+adminUser:
+  password: local:jx/adminUser:password
+  username: ram4444
+docker:
+  email: ramwt4444@gmail.com
+  password: local:jx/docker:password
+  url: https://index.docker.io/v1/
+  username: ram4444
+enableDocker: true
+pipelineUser:
+  email: ramwt4444@gmaiil.com
+  token: local:jx/pipelineUser:token
+  username: ram4444
+prow:
+  hmacToken: local:jx/prow:hmacToken
