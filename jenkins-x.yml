@@ -137,6 +137,9 @@ pipelineConfig:
             - install
             - values
             - -b
+            - exdns
+            - --external-ip
+            - 192.168.1.147
             command: jx
             dir: /workspace/source/env
             name: create-install-values
