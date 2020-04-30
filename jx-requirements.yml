@@ -16,7 +16,7 @@ cluster:
   registry: docker.io
 environments:
 - ingress:
-    domain: 1.2.3.4.nip.io
+    domain: 192.168.1.147.nip.io
     externalDNS: false
     ignoreLoadBalancer: true
     namespaceSubDomain: .jx.
@@ -27,7 +27,7 @@ environments:
   key: dev
   repository: environment-jx-dev
 - ingress:
-    domain: 1.2.3.4.nip.io
+    domain: 192.168.1.147.nip.io
     externalDNS: false
     namespaceSubDomain: ""
     tls:
@@ -37,7 +37,7 @@ environments:
   key: staging
   repository: environment-jx-staging
 - ingress:
-    domain: 1.2.3.4.nip.io
+    domain: 192.168.1.147.nip.io
     externalDNS: false
     namespaceSubDomain: ""
     tls:
@@ -48,7 +48,7 @@ environments:
   repository: environment-jx-production
 gitops: true
 ingress:
-  domain: 1.2.3.4.nip.io
+  domain: 192.168.1.147.nip.io
   externalDNS: false
   ignoreLoadBalancer: true
   namespaceSubDomain: .jx.
