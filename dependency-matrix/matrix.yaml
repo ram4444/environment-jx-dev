@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ram4444
-  repo: jptest1
-  url: https://github.com/ram4444/jptest1.git
+  repo: testagain
+  url: https://github.com/ram4444/testagain.git
   version: ""
   versionURL: ""
