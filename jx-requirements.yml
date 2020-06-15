@@ -26,7 +26,7 @@ environments:
   key: dev
   repository: environment-jx-dev
 - ingress:
-    domain: 192.168.1.147.nip.io
+    domain: ""
     externalDNS: false
     namespaceSubDomain: ""
     tls:
@@ -36,7 +36,7 @@ environments:
   key: staging
   repository: environment-jx-staging
 - ingress:
-    domain: 192.168.1.147.nip.io
+    domain: ""
     externalDNS: false
     namespaceSubDomain: ""
     tls:
