@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ram4444
-  repo: testjg
-  url: https://github.com/ram4444/testjg.git
+  repo: testjspring
+  url: https://github.com/ram4444/testjspring.git
   version: ""
   versionURL: ""

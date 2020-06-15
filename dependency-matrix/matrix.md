@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[ram4444/testjg](https://github.com/ram4444/testjg.git) |  | []() | 
+[ram4444/testjspring](https://github.com/ram4444/testjspring.git) |  | []() | 
