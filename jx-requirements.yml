@@ -18,7 +18,6 @@ environments:
 - ingress:
     domain: 192.168.1.147.nip.io
     externalDNS: false
-    ignoreLoadBalancer: true
     namespaceSubDomain: -jx.
     tls:
       email: ""
@@ -27,7 +26,7 @@ environments:
   key: dev
   repository: environment-jx-dev
 - ingress:
-    domain: 192.168.1.147.nip.io
+    domain: ""
     externalDNS: false
     ignoreLoadBalancer: true
     namespaceSubDomain: -jx.
@@ -38,7 +37,7 @@ environments:
   key: staging
   repository: environment-jx-staging
 - ingress:
-    domain: 192.168.1.147.nip.io
+    domain: ""
     externalDNS: false
     ignoreLoadBalancer: true
     namespaceSubDomain: -jx.
@@ -52,7 +51,6 @@ gitops: true
 ingress:
   domain: 192.168.1.147.nip.io
   externalDNS: false
-  ignoreLoadBalancer: true
   namespaceSubDomain: -jx.
   tls:
     email: ""
