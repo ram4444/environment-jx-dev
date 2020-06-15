@@ -1,0 +1,82 @@
+autoUpdate:
+  enabled: false
+  schedule: ""
+bootConfigURL: https://github.com/ram4444/environment-jx-dev
+cluster:
+  clusterName: jx
+  devEnvApprovers:
+  - ram4444
+  environmentGitOwner: ram4444
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
+  project: test
+  provider: kubernetes
+  registry: docker.io
+environments:
+- ingress:
+    domain: 192.168.1.147.nip.io
+    externalDNS: false
+    ignoreLoadBalancer: true
+    namespaceSubDomain: .jx.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: dev
+  repository: environment-jx-dev
+- ingress:
+    domain: 192.168.1.147.nip.io
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: staging
+  repository: environment-jx-staging
+- ingress:
+    domain: 192.168.1.147.nip.io
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: production
+  repository: environment-jx-production
+gitops: true
+ingress:
+  domain: 192.168.1.147.nip.io
+  externalDNS: false
+  ignoreLoadBalancer: true
+  namespaceSubDomain: .jx.
+  tls:
+    email: ""
+    enabled: false
+    production: false
+kaniko: true
+repository: nexus
+secretStorage: local
+storage:
+  backup:
+    enabled: false
+    url: ""
+  logs:
+    enabled: false
+    url: ""
+  reports:
+    enabled: false
+    url: ""
+  repository:
+    enabled: false
+    url: ""
+vault: {}
+velero:
+  schedule: ""
+  ttl: ""
+versionStream:
+  ref: v1.0.489
+  url: https://github.com/ram4444/jenkins-x-versions
+webhook: prow
