@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ram4444
+    provider: github
+    repository: testjg
+  name: ram4444-testjg
+spec:
+  description: Imported application for ram4444/testjg
+  httpCloneURL: https://github.com/ram4444/testjg.git
+  org: ram4444
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testjg
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ram4444/testjg.git
