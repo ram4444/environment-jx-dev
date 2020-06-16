@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ram4444
+    provider: github
+    repository: testlighthouse2
+  name: ram4444-testlighthouse2
+spec:
+  description: Imported application for ram4444/testlighthouse2
+  httpCloneURL: https://github.com/ram4444/testlighthouse2.git
+  org: ram4444
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testlighthouse2
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ram4444/testlighthouse2.git
