@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ram4444
-  repo: testafterdelete
-  url: https://github.com/ram4444/testafterdelete.git
+  repo: testafterdelete2
+  url: https://github.com/ram4444/testafterdelete2.git
   version: ""
   versionURL: ""
