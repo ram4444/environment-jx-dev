@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ram4444
-  repo: testcreate
-  url: https://github.com/ram4444/testcreate.git
+  repo: testignore
+  url: https://github.com/ram4444/testignore.git
   version: ""
   versionURL: ""

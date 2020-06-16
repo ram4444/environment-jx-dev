@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ram4444
+    provider: github
+    repository: testignore
+  name: ram4444-testignore
+spec:
+  description: Imported application for ram4444/testignore
+  httpCloneURL: https://github.com/ram4444/testignore.git
+  org: ram4444
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testignore
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ram4444/testignore.git
