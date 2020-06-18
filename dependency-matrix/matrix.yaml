@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ram4444
-  repo: testlighthouse2
-  url: https://github.com/ram4444/testlighthouse2.git
+  repo: testapprove
+  url: https://github.com/ram4444/testapprove.git
   version: ""
   versionURL: ""
