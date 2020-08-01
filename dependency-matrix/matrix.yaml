@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ram4444
-  repo: testkind
-  url: https://github.com/ram4444/testkind.git
+  repo: testkind2
+  url: https://github.com/ram4444/testkind2.git
   version: ""
   versionURL: ""
