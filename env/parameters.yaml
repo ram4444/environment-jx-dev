@@ -8,7 +8,7 @@ docker:
   username: ram4444
 enableDocker: true
 pipelineUser:
-  email: ramwt4444@gmaiil.com
+  email: ramwt4444@gmail.com
   token: local:jx/pipelineUser:token
   username: ram4444
 prow:

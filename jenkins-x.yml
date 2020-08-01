@@ -47,9 +47,9 @@ pipelineConfig:
         - name: GIT_COMMITTER_NAME
           value: ram4444
         - name: GIT_AUTHOR_EMAIL
-          value: ramwt4444@gmaiil.com
+          value: ramwt4444@gmail.com
         - name: GIT_COMMITTER_EMAIL
-          value: ramwt4444@gmaiil.com
+          value: ramwt4444@gmail.com
         stages:
         - name: release
           options:
