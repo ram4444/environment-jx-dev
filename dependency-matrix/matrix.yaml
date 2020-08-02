@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ram4444
-  repo: testkindnode
-  url: https://github.com/ram4444/testkindnode.git
+  repo: testkindnode2
+  url: https://github.com/ram4444/testkindnode2.git
   version: ""
   versionURL: ""
