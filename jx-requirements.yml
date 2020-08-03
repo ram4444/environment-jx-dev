@@ -19,7 +19,7 @@ environments:
     domain: myftp.biz
     externalDNS: false
     ignoreLoadBalancer: true
-    namespaceSubDomain: .jx.
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
@@ -30,7 +30,7 @@ environments:
     domain: ""
     externalDNS: false
     ignoreLoadBalancer: true
-    namespaceSubDomain: .jx.
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
@@ -41,7 +41,7 @@ environments:
     domain: ""
     externalDNS: false
     ignoreLoadBalancer: true
-    namespaceSubDomain: .jx.
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
@@ -53,7 +53,7 @@ ingress:
   domain: myftp.biz
   externalDNS: false
   ignoreLoadBalancer: true
-  namespaceSubDomain: .jx.
+  namespaceSubDomain: -jx.
   tls:
     email: ""
     enabled: false
