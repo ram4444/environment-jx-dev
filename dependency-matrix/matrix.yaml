@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ram4444
-  repo: testnoip
-  url: https://github.com/ram4444/testnoip.git
+  repo: testnoip2
+  url: https://github.com/ram4444/testnoip2.git
   version: ""
   versionURL: ""
