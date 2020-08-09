@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ram4444
-  repo: testwithoutingress
-  url: https://github.com/ram4444/testwithoutingress.git
+  repo: testport3
+  url: https://github.com/ram4444/testport3.git
   version: ""
   versionURL: ""
