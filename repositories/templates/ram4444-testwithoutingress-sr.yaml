@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ram4444
+    provider: github
+    repository: testwithoutingress
+  name: ram4444-testwithoutingress
+spec:
+  description: Imported application for ram4444/testwithoutingress
+  httpCloneURL: https://github.com/ram4444/testwithoutingress.git
+  org: ram4444
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testwithoutingress
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ram4444/testwithoutingress.git
