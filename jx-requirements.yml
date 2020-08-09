@@ -16,7 +16,7 @@ cluster:
   registry: docker.io
 environments:
 - ingress:
-    domain: dionysbiz.xyz
+    domain: myftp.biz
     externalDNS: false
     ignoreLoadBalancer: true
     namespaceSubDomain: -jx.
@@ -50,7 +50,7 @@ environments:
   repository: environment-jx-production
 gitops: true
 ingress:
-  domain: dionysbiz.xyz
+  domain: myftp.biz
   externalDNS: false
   ignoreLoadBalancer: true
   namespaceSubDomain: -jx.
