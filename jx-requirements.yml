@@ -5,7 +5,7 @@ bootConfigURL: https://github.com/ram4444/environment-jx-dev
 cluster:
   clusterName: jx
   devEnvApprovers:
-  - ram4444
+  - dionysbiz
   environmentGitOwner: ram4444
   gitKind: github
   gitName: github
