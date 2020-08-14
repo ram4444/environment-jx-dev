@@ -8,8 +8,8 @@ docker:
   username: ram4444
 enableDocker: true
 pipelineUser:
-  email: ramwt4444@gmail.com
+  email: dionysbiz@gmail.com
   token: local:jx/pipelineUser:token
-  username: ram4444
+  username: dionysbot
 prow:
   hmacToken: local:jx/prow:hmacToken
