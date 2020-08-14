@@ -1,7 +1,7 @@
 autoUpdate:
   enabled: false
   schedule: ""
-bootConfigURL: https://github.com/ram4444/environment-jx-dev
+bootConfigURL: https://github.com/dionysbiz/environment-jx-dev
 cluster:
   clusterName: jx
   devEnvApprovers:
