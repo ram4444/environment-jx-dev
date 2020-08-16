@@ -17,7 +17,7 @@ cluster:
 environments:
 - ingress:
     domain: dionysbiz.xyz
-    externalDNS: false
+    externalDNS: true
     ignoreLoadBalancer: true
     namespaceSubDomain: -jx.
     tls:
@@ -28,7 +28,7 @@ environments:
   repository: environment-jx-dev
 - ingress:
     domain: ""
-    externalDNS: false
+    externalDNS: true
     ignoreLoadBalancer: true
     namespaceSubDomain: -jx.
     tls:
@@ -39,7 +39,7 @@ environments:
   repository: environment-jx-staging
 - ingress:
     domain: ""
-    externalDNS: false
+    externalDNS: true
     ignoreLoadBalancer: true
     namespaceSubDomain: -jx.
     tls:
@@ -51,7 +51,7 @@ environments:
 gitops: true
 ingress:
   domain: dionysbiz.xyz
-  externalDNS: false
+  externalDNS: true
   ignoreLoadBalancer: true
   namespaceSubDomain: -jx.
   tls:
