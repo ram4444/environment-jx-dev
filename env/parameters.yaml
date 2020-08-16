@@ -2,10 +2,10 @@ adminUser:
   password: local:jx/adminUser:password
   username: ram4444
 docker:
-  email: ramwt4444@gmail.com
+  email: dionysbiz@gmail.com
   password: local:jx/docker:password
   url: https://index.docker.io/v1/
-  username: ram4444
+  username: dionysbiz
 enableDocker: true
 pipelineUser:
   email: dionysbiz@gmail.com
