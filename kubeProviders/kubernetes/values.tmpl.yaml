@@ -11,3 +11,7 @@
         }
       }
 {{- end}}
+exposecontroller:
+  exposecontroller:
+    HTTP: "true"
+    TLSACME: "false"
