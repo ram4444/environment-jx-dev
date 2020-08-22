@@ -27,7 +27,7 @@ environments:
   key: dev
   repository: environment-jx-dev
 - ingress:
-    domain: ""
+    domain: dionysbiz.xyz
     externalDNS: false
     ignoreLoadBalancer: true
     namespaceSubDomain: -jx.
@@ -38,7 +38,7 @@ environments:
   key: staging
   repository: environment-jx-staging
 - ingress:
-    domain: ""
+    domain: dionysbiz.xyz
     externalDNS: false
     ignoreLoadBalancer: true
     namespaceSubDomain: -jx.
