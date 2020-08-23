@@ -18,7 +18,6 @@ environments:
 - ingress:
     domain: dionysbiz.xyz
     externalDNS: false
-    ignoreLoadBalancer: false
     namespaceSubDomain: -jx.
     tls:
       email: ""
@@ -29,7 +28,6 @@ environments:
 - ingress:
     domain: dionysbiz.xyz
     externalDNS: false
-    ignoreLoadBalancer: false
     namespaceSubDomain: -jx.
     tls:
       email: ""
@@ -40,7 +38,6 @@ environments:
 - ingress:
     domain: dionysbiz.xyz
     externalDNS: false
-    ignoreLoadBalancer: false
     namespaceSubDomain: -jx.
     tls:
       email: ""
@@ -52,7 +49,6 @@ gitops: true
 ingress:
   domain: dionysbiz.xyz
   externalDNS: false
-  ignoreLoadBalancer: false
   namespaceSubDomain: -jx.
   tls:
     email: ""
