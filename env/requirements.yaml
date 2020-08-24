@@ -8,9 +8,9 @@ dependencies:
   condition: prow.enabled
   name: prow
   repository: http://chartmuseum.jenkins-x.io
-- alias: lighthouse
+- alias: lighthouse-jx
   condition: lighthouse.enabled
-  name: lighthouse
+  name: lighthouse-jx
   repository: http://chartmuseum.jenkins-x.io
 - alias: bucketrepo
   condition: bucketrepo.enabled
